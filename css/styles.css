@@ -169,6 +169,9 @@ ul {
   min-height: 50px;
   display: block;
   margin: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 }
 
 .btn-service:hover,
@@ -371,6 +374,59 @@ ul {
 .socials-icon {
   fill: currentColor;
 }
+/* header icons */
+.contact-icon {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+.contact-icon:hover {
+  color: var(--acent-txt-cl);
+}
+/* about icons */
+.about-icons {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+.about-logo {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+.about-list-logo {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+/* Regular customers */
+.customers-icons {
+  width: 106px;
+  height: 60px;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  fill: #afb1b8;
+}
+.customers-logo {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+.customers-list-logo {
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
 /* footer socials item */
 .footer-socials {
   display: flex;
@@ -386,8 +442,8 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #ffffff;
-  color: #afb1b8;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 .footer-socials-link:hover,
 .footer-socials-link:focus {
@@ -397,7 +453,17 @@ ul {
 .footer-socials-icon {
   fill: currentColor;
 }
-.footer-block {
+.footer-join {
   display: flex;
-  display: block;
+}
+.join {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.join-link {
+  margin-left: 70px;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }

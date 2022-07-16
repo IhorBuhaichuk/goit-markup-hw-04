@@ -47,10 +47,18 @@
         </nav>
         <ul class="header-contacts list">
           <li class="contact-item header-mail">
-            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link" href="mailto:info@devstudio.com">
+              <svg class="contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#envelope"></use></svg
+              >info@devstudio.com
+            </a>
           </li>
           <li class="contact-item header-phone">
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link" href="tel:+380961111111"
+              ><svg class="contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -69,6 +77,30 @@
       </section>
       <!-- About section -->
       <section class="about section">
+        <div class="container">
+          <ul class="about-logo">
+            <li class="about-list-logo">
+              <svg class="about-icons" width="70px" height="70px">
+                <use href="./images/icons.svg#antenna"></use>
+              </svg>
+            </li>
+            <li class="about-list-logo">
+              <svg class="about-icons" width="70px" height="70px">
+                <use href="./images/icons.svg#clock"></use>
+              </svg>
+            </li>
+            <li class="about-list-logo">
+              <svg class="about-icons" width="70px" height="70px">
+                <use href="./images/icons.svg#diagram"></use>
+              </svg>
+            </li>
+            <li class="about-list-logo">
+              <svg class="about-icons" width="70px" height="70px">
+                <use href="./images/icons.svg#astronaut"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
         <div class="container">
           <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="about-list list about-container">
@@ -170,7 +202,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="twitter"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#twitter-2"></use>
@@ -183,7 +215,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="facebook"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#facebook-3"></use>
@@ -196,7 +228,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="linkedin"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#linkedin-4"></use>
@@ -237,7 +269,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="twitter"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#twitter-2"></use>
@@ -250,7 +282,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="facebook"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#facebook-3"></use>
@@ -263,7 +295,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="linkedin"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#linkedin-4"></use>
@@ -304,7 +336,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="twitter"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#twitter-2"></use>
@@ -317,7 +349,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="facebook"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#facebook-3"></use>
@@ -330,7 +362,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="linkedin"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#linkedin-4"></use>
@@ -371,7 +403,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="twitter"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#twitter-2"></use>
@@ -384,7 +416,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="facebook"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#facebook-3"></use>
@@ -397,7 +429,7 @@
                       href="/"
                       target="_blank"
                       rel="noopener norefferer"
-                      area-label="instagram"
+                      area-label="linkedin"
                     >
                       <svg class="socials-icon" width="20" height="20">
                         <use href="./images/icons.svg#linkedin-4"></use>
@@ -411,86 +443,129 @@
         </div>
       </section>
     </main>
+    <!-- Regular customers -->
+    <section class="regular-customers section">
+      <div class="container">
+        <h2>Постояные клиенты</h2>
+        <ul class="customers-logo">
+          <li class="customers-list-logo">
+            <svg class="customers-icons" width="106px" height="60px">
+              <use href="./images/icons.svg#logo"></use>
+            </svg>
+          </li>
+          <li class="customers-list-logo">
+            <svg class="customers-icons" width=106px" height="60px">
+              <use href="./images/icons.svg#logo-1"></use>
+            </svg>
+          </li>
+          <li class="customers-list-logo">
+            <svg class="customers-icons" width="106px" height="60px">
+              <use href="./images/icons.svg#logo-2"></use>
+            </svg>
+          </li>
+          <li class="customers-list-logo">
+            <svg class="customers-icons" width="106px" height="60px">
+              <use href="./images/icons.svg#logo-3"></use>
+            </svg>
+          </li>
+          <li class="customers-list-logo">
+            <svg class="customers-icons" width="106px" height="60px">
+              <use href="./images/icons.svg#logo-4"></use>
+            </svg>
+          </li>
+          <li class="customers-list-logo">
+            <svg class="customers-icons" width="106px" height="60px">
+              <use href="./images/icons.svg#logo-5"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </section>
     <!-- Footer section -->
     <footer class="footer footer-container">
-      <div class="container">
-        <a class="logo white-logo link footer-logo" href="./index.html"
-          ><span class="logo-accent">Web</span>Studio</a
-        >
-        <address class="footer-addres">
-          <ul class="footer-list list">
-            <li class="footer-contacts">
+      <div class="container footer-join">
+        <div>
+          <a class="logo white-logo link footer-logo" href="./index.html"
+            ><span class="logo-accent">Web</span>Studio
+          </a>
+          <address class="footer-addres">
+            <ul class="footer-list list">
+              <li class="footer-contacts">
+                <a
+                  class="footer-addres link"
+                  href="https://bit.ly/3pXMvUd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >г. Киев, пр-т. Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-contacts">
+                <a class="footer-mail link" href="mailto:info@example.com">info@example.com</a>
+              </li>
+              <li class="footer-contacts">
+                <a class="footer-phone link" href="tel:+380991111111">tel:+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="join-link">
+          <p class="join">Присоединяйтесь</p>
+          <ul class="footer-socials list">
+            <li class="socials-item">
               <a
-                class="footer-addres link"
-                href="https://bit.ly/3pXMvUd"
+                class="footer-socials-link link"
+                href="/"
                 target="_blank"
-                rel="noopener noreferrer"
-                >г. Киев, пр-т. Леси Украинки, 26</a
+                rel="noopener norefferer"
+                area-label="instagram"
               >
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#instagram-1"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-contacts">
-              <a class="footer-mail link" href="mailto:info@example.com">info@example.com</a>
+            <li class="footer-socials-item">
+              <a
+                class="footer-socials-link link"
+                href="/"
+                target="_blank"
+                rel="noopener norefferer"
+                area-label="twitter"
+              >
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#twitter-2"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-contacts">
-              <a class="footer-phone link" href="tel:+380991111111">tel:+38 099 111 11 11</a>
+            <li class="footer-socials-item">
+              <a
+                class="footer-socials-link link"
+                href="/"
+                target="_blank"
+                rel="noopener norefferer"
+                area-label="facebook"
+              >
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#facebook-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a
+                class="footer-socials-link link"
+                href="/"
+                target="_blank"
+                rel="noopener norefferer"
+                area-label="linkedin"
+              >
+                <svg class="footer-socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin-4"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
-      <ul class="footer-socials list">
-        <li class="footer-socials-item">
-          <a
-            class="footer-socials-link link"
-            href="/"
-            target="_blank"
-            rel="noopener norefferer"
-            area-label="instagram"
-          >
-            <svg class="footer-socials-icon" width="20" height="20">
-              <use href="./images/icons.svg#instagram-1"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-socials-item">
-          <a
-            class="footer-socials-link link"
-            href="/"
-            target="_blank"
-            rel="noopener norefferer"
-            area-label="instagram"
-          >
-            <svg class="footer-socials-icon" width="20" height="20">
-              <use href="./images/icons.svg#twitter-2"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-socials-item">
-          <a
-            class="footer-socials-link link"
-            href="/"
-            target="_blank"
-            rel="noopener norefferer"
-            area-label="instagram"
-          >
-            <svg class="footer-socials-icon" width="20" height="20">
-              <use href="./images/icons.svg#facebook-3"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-socials-item">
-          <a
-            class="footer-socials-link link"
-            href="/"
-            target="_blank"
-            rel="noopener norefferer"
-            area-label="instagram"
-          >
-            <svg class="footer-socials-icon" width="20" height="20">
-              <use href="./images/icons.svg#linkedin-4"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
     </footer>
   </body>
 </html>
